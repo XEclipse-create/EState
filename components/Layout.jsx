@@ -10,7 +10,7 @@ const Layout = ({children}) => {
         <title>E-State</title>
     </Head>
 
-    <Box maxWidth="1920px" m="auto" color="#1A202C">
+    <Box maxWidth="1920px" m="auto" backgroundColor="#1A202C">
         <header>
             <Navbar/>
         </header>

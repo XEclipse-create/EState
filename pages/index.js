@@ -13,8 +13,8 @@ const Banner = ({purpose, title1, title2, desc1, desc2,imageUrl, buttonText, lin
     <Box p="5">
       <Text color="#d1d7e0" fontSize="sm" fontWeight="medium">{purpose}</Text>
       <Text fontSize="3xl" color="#802bb1" fontWeight="bold">{title1}<br/>{title2}</Text>
-      <Text color="d1d7e0" paddingTop="3" paddingBottom="3" fontSize="lg">{desc1}</Text>
-      <Text color="d1d7e0" paddingTop="3" paddingBottom="3" fontSize="lg">{desc2}</Text>
+      <Text color="#d1d7e0" paddingTop="3" paddingBottom="3" fontSize="lg">{desc1}</Text>
+      <Text color="#d1d7e0" paddingTop="3" paddingBottom="3" fontSize="lg">{desc2}</Text>
       <Button fontSize="xl" bg="#802bb1" color="#2d283e">
         <Link href={linkName}>{buttonText}</Link>
         </Button> 

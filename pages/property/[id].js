@@ -14,7 +14,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
         <Box w='full' p='6'>
         <Flex paddingTop='2' alignItems='center'>
             <Box paddingRight='3' color='green.400'>{isVerified && <GoVerified />}</Box>
-            <Text fontWeight='bold' fontSize='lg'>
+            <Text fontWeight='bold' fontSize='lg' color="#d1d7e0">
             AED {price} {rentFrequency && `/${rentFrequency}`}
             </Text>
             <Spacer />
@@ -25,22 +25,22 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
         </Flex>
         </Box>
         <Box marginTop='2'>
-        <Text fontSize='lg' marginBottom='2' fontWeight='bold'>{title}</Text>
+        <Text fontSize='lg' marginBottom='2' fontWeight='bold' color="#d1d7e0">{title}</Text>
         <Text lineHeight='2' color='gray.600'>{description}</Text>
         </Box>
         <Flex flexWrap='wrap' textTransform='uppercase' justifyContent='space-between'>
         <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3'>
-            <Text>Type</Text>
-            <Text fontWeight='bold'>{type}</Text>
+            <Text color="#d1d7e0">Type</Text>
+            <Text fontWeight='bold' color="#d1d7e0">{type}</Text>
         </Flex>
         <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3'>
-            <Text>Purpose</Text>
-            <Text fontWeight='bold'>{purpose}</Text>
+            <Text color="#d1d7e0">Purpose</Text>
+            <Text fontWeight='bold' color="#d1d7e0">{purpose}</Text>
         </Flex>
         {furnishingStatus && (
             <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3' >
-            <Text>Furnishing Status</Text>
-            <Text fontWeight='bold'>{furnishingStatus}</Text>
+            <Text color="#d1d7e0">Furnishing Status</Text>
+            <Text fontWeight='bold' color="#d1d7e0">{furnishingStatus}</Text>
             </Flex>
         )}
         </Flex>
